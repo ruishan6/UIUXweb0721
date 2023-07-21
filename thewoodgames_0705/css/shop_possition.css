@@ -1,0 +1,29 @@
+.nav_item{
+    position: relative;
+    cursor: pointer;
+}
+.nav_item>.nav_child{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.nav_item:hover>.nav_child{
+    display: block;
+}
+.nav_child a{
+    background-color: #713e0e;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+    line-height: 24px;
+    padding: 16px 30px;
+    padding-right: 15px;
+    letter-spacing: 1px;
+    display: block;
+    text-decoration: none;
+}
+.nav_child a:hover{
+    background-color: #000000;
+}
